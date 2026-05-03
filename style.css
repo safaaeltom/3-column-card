@@ -22,6 +22,7 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    align-content:flex-start;
     max-width: 200px;
     min-height: 350px;
     margin: 0;
@@ -35,30 +36,33 @@ body {
 }
 .card h1 {
     font-family: "Big Shoulders", sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.09em;
     color: hsl(0, 0%, 95%);
 }
 
 .card p {
     font-family: "Lexend Deca", sans-serif;
     color: hsl(0, 0%, 100%, 0.75);
+    line-height: 1.5;
     margin-bottom: 20px;
 }
 
-button {
+.btn {
     background-color: hsl(0, 0%, 95%);
-    color: hsl(0, 0%, 100%);
-    border-radius: 8px;
-    border: none;
     padding: 10px 5px;
+    color: black;
+    border-radius: 20px;
+    padding: 12px 0;
+    border: none;
     font-family: "Big Shoulders", sans-serif;
-    text-transform: uppercase;
     cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
     background-color: transparent;
     color: hsl(0, 0%, 95%);
-    border: 1px solid hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 95%);
 }
 
 .sedans {
