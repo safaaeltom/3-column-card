@@ -22,8 +22,8 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    align-content:flex-start;
-    max-width: 200px;
+    align-items: flex-start;
+    max-width: 250px;
     min-height: 350px;
     margin: 0;
     padding: 40px;
@@ -37,7 +37,8 @@ body {
 .card h1 {
     font-family: "Big Shoulders", sans-serif;
     font-weight: 500;
-    letter-spacing: -0.09em;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
     color: hsl(0, 0%, 95%);
 }
 
@@ -45,17 +46,18 @@ body {
     font-family: "Lexend Deca", sans-serif;
     color: hsl(0, 0%, 100%, 0.75);
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .btn {
-    background-color: hsl(0, 0%, 95%);
-    padding: 10px 5px;
-    color: black;
-    border-radius: 20px;
-    padding: 12px 0;
-    border: none;
     font-family: "Big Shoulders", sans-serif;
+    font-weight: 700;
+    background-color: hsl(0, 0%, 95%);
+    display: inline-block;
+    color: tomato;
+    padding: 12px 25px;
+    border-radius: 20px;
+    border: none;
     cursor: pointer;
 }
 
