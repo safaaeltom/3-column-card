@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    color: hsl(0, 0%, 95%);
+}
+
+.columns {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .columns {
+        flex-direction: column;
+    }
+}
+
+.sedans {
+    display:flex;
+    flex-direction: column;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    display:flex;
+    flex-direction: column;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    display:flex;
+    flex-direction: column;
+    background-color: hsl(179, 100%, 13%);
+}
