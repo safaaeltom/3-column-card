@@ -9,12 +9,12 @@ body {
     align-items: center;
     background-color: hsla(0, 0%, 100%, 0.75);
     min-height: 100vh;
-    min-width: 280px;
 }
 
 @media (max-width: 768px) {
     .columns {
         flex-direction: column;
+        padding: 70px 0;
     }
 }
 
@@ -25,19 +25,20 @@ body {
     align-items: flex-start;
     max-width: 250px;
     min-height: 350px;
-    margin: 0;
     padding: 40px;
     flex: 1;
 }
 
 .card img {
     width: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .card h1 {
     font-family: "Big Shoulders", sans-serif;
+    align-self: flex-start;
     font-weight: 500;
-    letter-spacing: 0.01em;
+    font-stretch: condensed;
+    letter-spacing: -0.06em;
     text-transform: uppercase;
     color: hsl(0, 0%, 95%);
 }
@@ -45,8 +46,10 @@ body {
 .card p {
     font-family: "Lexend Deca", sans-serif;
     color: hsl(0, 0%, 100%, 0.75);
-    line-height: 1.5;
-    margin-bottom: 50px;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    width: 90%;
 }
 
 .btn {
@@ -54,27 +57,40 @@ body {
     font-weight: 700;
     background-color: hsl(0, 0%, 95%);
     display: inline-block;
-    color: tomato;
     padding: 12px 25px;
     border-radius: 20px;
-    border: none;
+    border: 1px solid transparent;
+    margin-bottom: 15px;
     cursor: pointer;
 }
 
-.btn:hover {
+.card .btn:hover {
     background-color: transparent;
     color: hsl(0, 0%, 95%);
-    border: 1px solid hsl(0, 0%, 95%);
+    border: 1px solid currentColor;
+    ;
 }
 
 .sedans {
     background-color: hsl(31, 77%, 52%);
 }
 
+.sedans .btn {
+    color: hsl(31, 77%, 52%);
+}
+
 .suvs {
     background-color: hsl(184, 100%, 22%);
 }
 
+.suvs .btn {
+    color: hsl(184, 100%, 22%);
+}
+
 .luxury {
     background-color: hsl(179, 100%, 13%);
+}
+
+.luxury .btn {
+    color: hsl(179, 100%, 13%);
 }
