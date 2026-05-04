@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://frontendmentor.io/your-solution-url  
+- Profile link: https://www.frontendmentor.io/profile/safaaeltom 
 - Live Site URL: https://3-column-card-six-blush.vercel.app/  
 
 ---
@@ -70,4 +70,4 @@ I used AI as a learning assistant during this project to help with debugging lay
 
 ## Author
 
-- Frontend Mentor: https://www.frontendmentor.io/profile/yourusername
+- Frontend Mentor: https://www.frontendmentor.io/profile/safaaeltom
