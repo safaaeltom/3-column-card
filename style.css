@@ -24,7 +24,7 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     max-width: 250px;
-    min-height: 350px;
+    min-height: 400px;
     padding: 40px;
     flex: 1;
 }
@@ -36,7 +36,7 @@ body {
 .card h1 {
     font-family: "Big Shoulders", sans-serif;
     align-self: flex-start;
-    font-weight: 500;
+    font-weight: 700;
     font-stretch: condensed;
     letter-spacing: -0.03em;
     text-transform: uppercase;
