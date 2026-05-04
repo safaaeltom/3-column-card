@@ -38,7 +38,7 @@ body {
     align-self: flex-start;
     font-weight: 500;
     font-stretch: condensed;
-    letter-spacing: -0.06em;
+    letter-spacing: -0.03em;
     text-transform: uppercase;
     color: hsl(0, 0%, 95%);
 }
